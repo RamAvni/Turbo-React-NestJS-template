@@ -23,7 +23,6 @@
     "@swc/core": "catalog:",
     "@types/express": "catalog:",
     "@types/node": "catalog:",
-    "@types/supertest": "catalog:",
     "eslint": "catalog:",
     "eslint-config-prettier": "catalog:",
     "eslint-plugin-prettier": "catalog:",
