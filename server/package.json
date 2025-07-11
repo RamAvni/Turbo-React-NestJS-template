@@ -3,7 +3,7 @@
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "dev": "nest start --watch",
+    "dev": "NODE_ENV=development nest start --watch",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix"
   },
   "dependencies": {
@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "catalog:",
-    "@eslint/js": "^9.18.0",
+    "@eslint/js": "catalog:",
     "@nestjs/cli": "catalog:",
     "@nestjs/schematics": "catalog:",
     "@nestjs/testing": "catalog:",
@@ -23,7 +23,6 @@
     "@swc/core": "catalog:",
     "@types/express": "catalog:",
     "@types/node": "catalog:",
-    "@types/supertest": "catalog:",
     "eslint": "catalog:",
     "eslint-config-prettier": "catalog:",
     "eslint-plugin-prettier": "catalog:",
