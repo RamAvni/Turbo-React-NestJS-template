@@ -10,11 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@base-ui-components/react": "catalog:",
-    "@tanstack/react-form": "catalog:",
     "react": "catalog:",
-    "react-dom": "catalog:",
-    "zod": "catalog:"
+    "react-dom": "catalog:"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",
