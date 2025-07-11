@@ -1,17 +1,28 @@
 {
-  "name": "saving-images-test",
+  "name": "put-your-amazing-project-name-here",
   "author": "RamAvni",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "check-types": "turbo run check-types"
+    "prettier": "prettier --write .",
+    "prettier:check": "prettier --check .",
+    "check-types": "turbo run check-types",
+    "spell": "cspell **",
+    "pipeline": "turbo run lint check-types prettier:check build"
   },
   "devDependencies": {
+    "eslint": "catalog:",
+    "@eslint/js": "catalog:",
+    "eslint-config-prettier": "catalog:",
+    "eslint-plugin-prettier": "catalog:",
+    "eslint-plugin-react-hooks": "catalog:",
+    "eslint-plugin-react-refresh": "catalog:",
+    "globals": "catalog:",
     "prettier": "catalog:",
     "turbo": "catalog:",
-    "typescript": "catalog:"
+    "typescript": "catalog:",
+    "typescript-eslint": "catalog:"
   },
   "packageManager": "pnpm@10.13.1",
   "engines": {

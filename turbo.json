@@ -6,7 +6,11 @@
       "dependsOn": ["^build"],
       "outputs": ["dist"]
     },
+
+    "//#prettier:check": {},
+    "check-types": {},
     "lint": {},
+
     "dev": {
       "dependsOn": ["^build"],
       "cache": false,
