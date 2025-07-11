@@ -3,3 +3,4 @@ vite
 vitejs
 nodenext
 avni
+knip

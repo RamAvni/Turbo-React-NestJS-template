@@ -6,7 +6,13 @@
       "dependsOn": ["^build"],
       "outputs": ["dist"]
     },
+
+    "//#prettier:check": {},
+    "//#spell": {},
+    "//#knip": {},
+    "check-types": {},
     "lint": {},
+
     "dev": {
       "dependsOn": ["^build"],
       "cache": false,
