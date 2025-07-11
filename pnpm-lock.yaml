@@ -42,6 +42,9 @@ catalogs:
     '@vitejs/plugin-react':
       specifier: ^4.6.0
       version: 4.6.0
+    cspell:
+      specifier: ^9.1.3
+      version: 9.1.3
     eslint:
       specifier: ^9.30.1
       version: 9.30.1
@@ -94,10 +97,6 @@ catalogs:
 importers:
 
   .:
-    dependencies:
-      cspell:
-        specifier: ^9.1.3
-        version: 9.1.3
     devDependencies:
       '@eslint/js':
         specifier: 'catalog:'
@@ -105,6 +104,9 @@ importers:
       '@types/node':
         specifier: 'catalog:'
         version: 22.16.3
+      cspell:
+        specifier: 'catalog:'
+        version: 9.1.3
       eslint:
         specifier: 'catalog:'
         version: 9.30.1(jiti@2.4.2)
@@ -120,9 +122,6 @@ importers:
       eslint-plugin-react-refresh:
         specifier: 'catalog:'
         version: 0.4.20(eslint@9.30.1(jiti@2.4.2))
-      globals:
-        specifier: 'catalog:'
-        version: 16.3.0
       knip:
         specifier: 'catalog:'
         version: 5.61.3(@types/node@22.16.3)(typescript@5.8.3)
@@ -203,6 +202,9 @@ importers:
       '@types/node':
         specifier: 'catalog:'
         version: 22.16.3
+      globals:
+        specifier: 'catalog:'
+        version: 16.3.0
       typescript:
         specifier: 'catalog:'
         version: 5.8.3

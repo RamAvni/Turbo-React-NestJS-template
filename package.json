@@ -24,13 +24,11 @@
     "prettier": "catalog:",
     "turbo": "catalog:",
     "typescript": "catalog:",
-    "typescript-eslint": "catalog:"
+    "typescript-eslint": "catalog:",
+    "cspell": "catalog:"
   },
   "packageManager": "pnpm@10.13.1",
   "engines": {
     "node": ">=18"
-  },
-  "dependencies": {
-    "cspell": "^9.1.3"
   }
 }
