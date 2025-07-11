@@ -8,6 +8,8 @@
     },
 
     "//#prettier:check": {},
+    "//#spell": {},
+    "//#knip": {},
     "check-types": {},
     "lint": {},
 

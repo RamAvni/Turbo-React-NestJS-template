@@ -13,19 +13,12 @@
     "rxjs": "catalog:"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "catalog:",
     "@eslint/js": "catalog:",
     "@nestjs/cli": "catalog:",
     "@nestjs/schematics": "catalog:",
-    "@nestjs/testing": "catalog:",
     "@swc/cli": "catalog:",
     "@swc/core": "catalog:",
-    "@types/express": "catalog:",
     "@types/node": "catalog:",
-    "source-map-support": "catalog:",
-    "ts-loader": "catalog:",
-    "ts-node": "catalog:",
-    "tsconfig-paths": "catalog:",
     "typescript": "catalog:"
   }
 }

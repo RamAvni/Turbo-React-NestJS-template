@@ -9,16 +9,19 @@
     "prettier:check": "prettier --check .",
     "check-types": "turbo run check-types",
     "spell": "cspell **",
-    "pipeline": "turbo run lint check-types prettier:check build"
+    "knip": "knip",
+    "pipeline": "turbo run lint check-types prettier:check spell knip build"
   },
   "devDependencies": {
-    "eslint": "catalog:",
     "@eslint/js": "catalog:",
+    "@types/node": "catalog:",
+    "eslint": "catalog:",
     "eslint-config-prettier": "catalog:",
     "eslint-plugin-prettier": "catalog:",
     "eslint-plugin-react-hooks": "catalog:",
     "eslint-plugin-react-refresh": "catalog:",
     "globals": "catalog:",
+    "knip": "catalog:",
     "prettier": "catalog:",
     "turbo": "catalog:",
     "typescript": "catalog:",
@@ -27,5 +30,8 @@
   "packageManager": "pnpm@10.13.1",
   "engines": {
     "node": ">=18"
+  },
+  "dependencies": {
+    "cspell": "^9.1.3"
   }
 }
