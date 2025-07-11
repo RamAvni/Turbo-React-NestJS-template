@@ -20,7 +20,6 @@
     "eslint-plugin-prettier": "catalog:",
     "eslint-plugin-react-hooks": "catalog:",
     "eslint-plugin-react-refresh": "catalog:",
-    "globals": "catalog:",
     "knip": "catalog:",
     "prettier": "catalog:",
     "turbo": "catalog:",
