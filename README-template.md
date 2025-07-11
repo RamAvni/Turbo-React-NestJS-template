@@ -2,8 +2,4 @@
 
 - Rename your package(.json) to whichever name you'll like
 
-- Do
-
-```bash
-corepack up
-```
+- Do: `$ corepack up`
