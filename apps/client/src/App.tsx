@@ -1,7 +1,7 @@
 import "./App.css";
 
 function App() {
-  return <>hello</>;
+  return <>So, you come here often? ( ͡° ͜ʖ ͡°) </>;
 }
 
 export default App;
