@@ -6,4 +6,5 @@ Includes:
   * Nest-JS
   * Turbo monorepo
   * Empty Packages directory
+  * CSpell
   * Eternal happiness
