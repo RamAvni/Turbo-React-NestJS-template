@@ -1,0 +1,5 @@
+esbuild
+vite
+vitejs
+nodenext
+avni
