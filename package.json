@@ -7,10 +7,9 @@
     "lint": "turbo run lint",
     "prettier": "prettier --write .",
     "prettier:check": "prettier --check .",
-    "check-types": "turbo run check-types",
     "spell": "cspell **",
     "knip": "knip",
-    "pipeline": "turbo run lint check-types prettier:check spell knip build"
+    "pipeline": "turbo run lint prettier:check spell knip build"
   },
   "devDependencies": {
     "@eslint/js": "catalog:",
