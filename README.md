@@ -10,3 +10,17 @@ Includes:
 - Empty Packages directory
 - CSpell
 - Eternal happiness
+
+NOT included:
+
+- CI/CD
+
+- E2E library
+- Unit testing library
+
+- husky
+
+- UI library
+- React-Router
+
+- CSS-addons (tailwind/scss)
