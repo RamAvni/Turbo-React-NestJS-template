@@ -7,10 +7,13 @@
       "outputs": ["dist"]
     },
 
-    "//#prettier:check": {},
+    "//#prettier": {},
     "//#spell": {},
     "//#knip": {},
-    "lint": {},
+    "//#ls-lint": {},
+    "//#stylelint": {},
+
+    "eslint": {},
 
     "dev": {
       "dependsOn": ["^build"],

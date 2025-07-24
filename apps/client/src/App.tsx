@@ -1,5 +1,3 @@
-import "./App.css";
-
 function App() {
   return <>So, do you come here often? ( ͡° ͜ʖ ͡°) </>;
 }
