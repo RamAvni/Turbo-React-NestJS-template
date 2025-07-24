@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint . && stylelint **/*.css",
+    "eslint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {

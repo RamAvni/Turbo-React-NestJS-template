@@ -4,12 +4,13 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
-    "lint": "turbo run lint",
-    "prettier": "prettier --write .",
-    "prettier:check": "prettier --check .",
+    "lint": "turbo run eslint ls-lint stylelint",
+    "prettier": "prettier --check .",
+    "ls-lint": "ls-lint",
+    "stylelint": "stylelint **/*.css",
     "spell": "cspell **",
     "knip": "knip",
-    "pipeline": "turbo run lint prettier:check spell knip build"
+    "pipeline": "turbo run eslint ls-lint stylelint prettier spell knip build"
   },
   "devDependencies": {
     "@eslint/js": "catalog:",
