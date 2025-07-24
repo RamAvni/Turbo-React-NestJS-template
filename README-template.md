@@ -9,5 +9,7 @@
 Linters:
 
 - Remember to review the base, and your own configuration, after installing frameworks/major libraries.
-
   (e.g. If you decide on using `.scss`, you will need to adapt `stylelint` accordingly)
+
+- If you don't like my ls-lint configuration, you can edit it as you wish!
+- Please review and add every special file-naming-convention: e.g. `.SOMETHING.ts`, to the `.ls-lint.yml`

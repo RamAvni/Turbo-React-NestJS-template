@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "@eslint/js": "catalog:",
+    "@ls-lint/ls-lint": "^2.3.1",
     "@types/node": "catalog:",
     "cspell": "catalog:",
     "eslint": "catalog:",
