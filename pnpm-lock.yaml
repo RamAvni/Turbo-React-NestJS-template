@@ -9,6 +9,9 @@ catalogs:
     '@eslint/js':
       specifier: 9.30.1
       version: 9.30.1
+    '@ls-lint/ls-lint':
+      specifier: ^2.3.1
+      version: 2.3.1
     '@nestjs/cli':
       specifier: ^11.0.0
       version: 11.0.7
@@ -81,6 +84,12 @@ catalogs:
     rxjs:
       specifier: ^7.8.1
       version: 7.8.2
+    stylelint:
+      specifier: ^16.22.0
+      version: 16.22.0
+    stylelint-config-standard:
+      specifier: ^38.0.0
+      version: 38.0.0
     turbo:
       specifier: ^2.5.4
       version: 2.5.4
@@ -102,7 +111,7 @@ importers:
         specifier: 'catalog:'
         version: 9.30.1
       '@ls-lint/ls-lint':
-        specifier: ^2.3.1
+        specifier: 'catalog:'
         version: 2.3.1
       '@types/node':
         specifier: 'catalog:'
@@ -132,10 +141,10 @@ importers:
         specifier: 'catalog:'
         version: 3.6.2
       stylelint:
-        specifier: ^16.22.0
+        specifier: 'catalog:'
         version: 16.22.0(typescript@5.8.3)
       stylelint-config-standard:
-        specifier: ^38.0.0
+        specifier: 'catalog:'
         version: 38.0.0(stylelint@16.22.0(typescript@5.8.3))
       turbo:
         specifier: 'catalog:'

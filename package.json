@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@eslint/js": "catalog:",
-    "@ls-lint/ls-lint": "^2.3.1",
+    "@ls-lint/ls-lint": "catalog:",
     "@types/node": "catalog:",
     "cspell": "catalog:",
     "eslint": "catalog:",
@@ -23,8 +23,8 @@
     "eslint-plugin-react-refresh": "catalog:",
     "knip": "catalog:",
     "prettier": "catalog:",
-    "stylelint": "^16.22.0",
-    "stylelint-config-standard": "^38.0.0",
+    "stylelint": "catalog:",
+    "stylelint-config-standard": "catalog:",
     "turbo": "catalog:",
     "typescript": "catalog:",
     "typescript-eslint": "catalog:"
