@@ -10,7 +10,8 @@
     "stylelint": "stylelint **/*.css",
     "spell": "cspell **",
     "knip": "knip",
-    "pipeline": "turbo run eslint ls-lint stylelint prettier spell knip build"
+    "pipeline": "turbo run eslint ls-lint stylelint prettier spell knip build",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@eslint/js": "catalog:",
