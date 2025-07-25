@@ -13,3 +13,8 @@ Linters:
 
 - If you don't like my ls-lint configuration, you can edit it as you wish!
 - Please review and add every special file-naming-convention: e.g. `.SOMETHING.ts`, to the `.ls-lint.yml`
+
+Git Hooks:
+
+- Husky is installed for you, and already configured to do pnpm pipeline on every commit.
+  Yes, it may be too much for larger projects, and therefore you should modify the existing husky setup as you wish :)

@@ -7,6 +7,7 @@ Includes:
 - Nest-JS
 - Turbo monorepo
   - with a pipeline!
+- Husky and commitlint
 - Empty Packages directory
 - CSpell
 - Eternal happiness
@@ -17,8 +18,6 @@ NOT included:
 
 - E2E library
 - Unit testing library
-
-- husky
 
 - UI library
 - React-Router
