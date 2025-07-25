@@ -4,3 +4,4 @@ vitejs
 nodenext
 avni
 knip
+commitlint
