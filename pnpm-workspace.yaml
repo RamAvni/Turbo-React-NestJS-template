@@ -15,7 +15,7 @@ catalog:
   "@nestjs/cli": ^11.0.0
   "@nestjs/common": ^11.0.1
   "@nestjs/core": ^11.0.1
-  "@nestjs/platform-express": ^11.0.1
+  "@nestjs/platform-express": ^11.1.5
   "@nestjs/schematics": ^11.0.7
   "@nestjs/testing": ^11.0.1
   "@swc/cli": ^0.6.0
