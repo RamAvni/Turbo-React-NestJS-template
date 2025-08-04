@@ -14,7 +14,7 @@ catalog:
   "@nestjs/core": ^11.1.5
   "@nestjs/platform-express": ^11.1.5
   "@nestjs/schematics": ^11.0.7
-  "@nestjs/testing": ^11.0.1
+  "@nestjs/testing": ^11.1.15
   "@swc/cli": ^0.6.0
   "@swc/core": ^1.13.3
   "@types/express": ^5.0.0
@@ -51,6 +51,7 @@ catalog:
   vite: ^7.0.4
 
 onlyBuiltDependencies:
-  - "@nestjs/core"
-  - "@swc/core"
+  - '@nestjs/core'
+  - '@swc/core'
   - esbuild
+  - oxc-resolver
