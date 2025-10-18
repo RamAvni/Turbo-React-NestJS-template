@@ -26,11 +26,14 @@ const TestComponent: FC<{ children?: ReactNode }> = ({ children }) => {
   );
 };
 
-describe("useGetCities hook | Low Integration test", () => {
-  it("should display a the text within the component", async () => {
-    const screen = await render(<TestComponent />, {
-      wrapper: TestQueryClient,
-    });
-    await expect.element(screen.getByText("ירושלים")).toBeVisible();
-  });
+describe("useGetCities hook", () => {
+  it.skipIf(!import.meta.env.VITE_COSTLY)(
+    "should fetch cities from the API and display text within the component",
+    async () => {
+      const screen = await render(<TestComponent />, {
+        wrapper: TestQueryClient,
+      });
+      await expect.element(screen.getByText("ירושלים")).toBeVisible();
+    },
+  );
 });
