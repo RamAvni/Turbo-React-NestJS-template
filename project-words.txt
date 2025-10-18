@@ -5,3 +5,10 @@ nodenext
 avni
 knip
 commitlint
+
+bustop
+busstop
+
+ירושלים
+
+vitest

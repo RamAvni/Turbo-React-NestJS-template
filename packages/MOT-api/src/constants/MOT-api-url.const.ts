@@ -19,15 +19,15 @@ const MOT_API_CONTROLLERS = {
  * */
 export const MOT_API_SERVICES = {
   /**
-   * get a list of all cities/settelments
+   * get a list of all cities/settlements
    * NOTE: I did not find any other languages other than Hebrew and English, but there must be more!
    * */
-  getCityList: (language: "he" | "en") =>
+  getCityListFnPath: (language: "he" | "en") =>
     `${MOT_API_CONTROLLERS.passengerInfo}/getCityList/${language}/false`,
 
-  getBusStopListByRadius: (latitude: string, longitude: string) =>
+  getBusStopListByRadiusFnPath: (latitude: string, longitude: string) =>
     `${MOT_API_CONTROLLERS.passengerInfo}/GetBusstopListByRadius/1/${latitude}/${longitude}/300/he/false`,
 
-  getRealTimeBusLineListByBusStop: (busStop: string) =>
+  getRealTimeBusLineListByBusStopFnPath: (busStop: string) =>
     `${MOT_API_CONTROLLERS.passengerInfo}/GetRealtimeBusLineListByBustop/${busStop}/he/false`,
 } as const;

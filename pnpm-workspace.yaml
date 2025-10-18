@@ -22,6 +22,11 @@ catalog:
   '@types/react': 19.2.2
   '@types/react-dom': 19.2.2
   '@vitejs/plugin-react': 4.7.0
+  "@vitest/browser": "^3.2.4"
+  "@vitest/browser-playwright": "4.0.0-beta.15"
+  "vitest": "^4.0.0-beta.17"
+  "vitest-browser-react": "v2.0.0-beta.4"
+  "playwright": "^1.56.0"
   cspell: ^9.2.0
   eslint: 9.37.0
   eslint-config-prettier: ^10.1.8
