@@ -4,9 +4,12 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "tsc -p ./tsconfig.build.json",
+    "build": "tsdown -p ./tsconfig.build.json",
     "test": "vitest --browser.headless",
     "test:withCostly": "VITE_COSTLY=true vitest --browser.headless"
+  },
+  "exports": {
+    ".": "./src/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +20,7 @@
     "@types/react-dom": "catalog:",
     "react": "catalog:",
     "react-dom": "catalog:",
+    "tsdown": "^0.19.0",
     "typescript": "catalog:"
   },
   "dependencies": {

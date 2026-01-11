@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "MOT-api": "workspace:*",
     "react": "catalog:",
     "react-dom": "catalog:"
   },

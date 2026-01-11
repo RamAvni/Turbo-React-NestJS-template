@@ -13,9 +13,11 @@ export function useGetCities(language: "he" | "en") {
   return useQuery({
     queryKey: ["getCities", language],
     queryFn: async () => {
-      return await axios.get<CityI[]>(
-        `${MOT_API_URL}/${getCityListFnPath(language)}`,
-      );
+      return (
+        await axios.get<CityI[]>(
+          `${MOT_API_URL}/${getCityListFnPath(language)}`,
+        )
+      ).data;
     },
   });
 }
