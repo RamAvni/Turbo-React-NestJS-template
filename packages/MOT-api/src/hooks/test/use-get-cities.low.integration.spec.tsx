@@ -19,7 +19,7 @@ const TestComponent: FC<{ children?: ReactNode }> = ({ children }) => {
     <div>
       {children}
       <ol>
-        {data?.data.map((city) => (
+        {data?.map((city) => (
           <li>{`myCityName: ${city.NAME}, priority: ${city.PRIORITY}, id: ${city.ID}`}</li>
         ))}
       </ol>
