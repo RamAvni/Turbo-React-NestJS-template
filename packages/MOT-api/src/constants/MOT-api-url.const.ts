@@ -45,7 +45,7 @@ export const MOT_API = {
     },
 
     getCityList: (lang: MotLanguages, isEgged: boolean = false) =>
-      `${MOT_BASE_URL}/searchService/getCityList/${lang}/${isEgged}`,
+      `${MOT_BASE_URL}/${MOT_API_CONTROLLERS.passengerInfo}/getCityList/${lang}/${isEgged}`,
 
     getRovaDetails: (searchPlaceId: number, language: MotLanguages) =>
       `${MOT_BASE_URL}/${MOT_API_CONTROLLERS.passengerInfo}/GetRovaDetails/${searchPlaceId}/${language}/false`,
@@ -74,7 +74,7 @@ export const MOT_API = {
       `${MOT_BASE_URL}/${MOT_API_CONTROLLERS.passengerInfo}/GetBusLineListByBustop/${dateOrder}/${selectedBusstopId}/${language}/false`,
 
     getBusstopListByRadius: (
-      dateOrder: string,
+      dateOrder: number,
       coordinateLat: number,
       coordinateLng: number,
       scanRadius: number,
