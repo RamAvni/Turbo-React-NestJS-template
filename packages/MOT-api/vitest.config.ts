@@ -8,7 +8,13 @@ export default mergeConfig(
   mainVitestConfig,
   defineProject({
     plugins: [react()],
+
     test: {
+      tags: [
+        { name: "unit", description: "Unit Tests" },
+        { name: "integration" },
+        { name: "e2e" },
+      ],
       browser: {
         enabled: true,
         provider: playwright(),

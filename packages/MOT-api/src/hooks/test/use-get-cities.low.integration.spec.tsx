@@ -1,6 +1,6 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { FC, ReactNode } from "react";
-import { describe, it, expect } from "vitest";
+import { describe, it, test, expect } from "vitest";
 import { render, renderHook } from "vitest-browser-react";
 import { useGetCities } from "../use-get-cities.hook";
 import { commands } from "@vitest/browser/context";
@@ -38,7 +38,9 @@ describe("The hook obtains data | Happy path", () => {
     },
   );
 
-  it("", async () => {
+  test("", { tags: [] }, () => {});
+  it("", { tags: [] }, async ({ task: { meta } }) => {
+    meta.id = "#123";
     // @ts-expect-error Vitest doesn't provide the correct types with ctx
     commands.setOffline();
 

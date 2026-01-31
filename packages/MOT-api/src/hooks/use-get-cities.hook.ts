@@ -9,7 +9,7 @@ interface CityI {
 }
 
 export function useGetCities(language: "he" | "en") {
-  const { getCityListFnPath } = MOT_API_SERVICES;
+  const { getCityList: getCityListFnPath } = MOT_API_SERVICES;
   return useQuery({
     queryKey: ["getCities", language],
     queryFn: async () => {
