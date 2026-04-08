@@ -10,7 +10,7 @@ catalog:
   '@ls-lint/ls-lint': ^2.3.1
   '@nestjs/cli': ^11.0.14
   '@nestjs/common': ^11.1.11
-  '@nestjs/core': ^11.1.11
+  '@nestjs/core': ^11.1.18
   '@nestjs/platform-express': ^11.1.11
   '@nestjs/schematics': ^11.0.9
   '@swc/cli': ^0.7.9
