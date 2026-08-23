@@ -65,7 +65,7 @@ export interface BusLineI {
   CompanyId: number;
 
   /** Route details */
-  BusStopHebrewName: string;
+  BusstopHebrewName: string;
   BusstopType: string; // e.g., "איסוף והורדה"
   Direction: string | null;
   MotDirection: number;
